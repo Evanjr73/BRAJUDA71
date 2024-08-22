@@ -1,10 +1,10 @@
 {
   "expo": {
-    "name": "BRAJUDA71",
-    "slug": "BRAJUDA71",
+    "name": "AJUDA BRASIL",
+    "slug": "AJUDA BRASIL",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/images/icon.png",
+    "icon": "./assets/images/icon.fw.png",
     "scheme": "myapp",
     "userInterfaceStyle": "automatic",
     "splash": {
@@ -13,24 +13,40 @@
       "backgroundColor": "#ffffff"
     },
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "config": {
+        "googleMobileAdsAppId": "ca-app-pub-XXXXXXXXXXXXXXXX~YYYYYYYYYY"
+      }
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/images/adaptive-icon.png",
+        "foregroundImage": "./assets/images/icon.fw.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "config": {
+        "googleMobileAdsAppId": "ca-app-pub-XXXXXXXXXXXXXXXX~YYYYYYYYYY"
+      },
+      "package": "com.evan_junior73.BRAJUDA71"
     },
     "web": {
       "bundler": "metro",
       "output": "static",
-      "favicon": "./assets/images/favicon.png"
+      "favicon": "./assets/images/icon.fw.png"
     },
     "plugins": [
-      "expo-router"
+      "expo-router",
+      "react-native-google-mobile-ads"
     ],
     "experiments": {
       "typedRoutes": true
+    },
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "82885a4a-6ad8-4388-a991-cae6b21a9622"
+      }
     }
   }
 }

@@ -13,5 +13,5 @@
     "**/*.tsx",
     ".expo/types/**/*.ts",
     "expo-env.d.ts"
-  ]
+, "app/BolsaFamilia/CalendarioDePagamento/CalendarioDePagamento.jsx", "components/headerBloqBolsa.tsx", "components/headerEmprestimo.tsx"  ]
 }

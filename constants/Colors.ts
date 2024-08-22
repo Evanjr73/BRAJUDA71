@@ -5,6 +5,17 @@
 
 const tintColorLight = '#0a7ea4';
 const tintColorDark = '#fff';
+const divtexto = '#FAFAD2'
+
+
+export const imgback ={
+  estilo:{
+    display: "flex",
+    alignItems: "center",
+    width: "auto",
+    height: "100%"
+  }
+}
 
 export const Colors = {
   light: {
@@ -23,4 +34,8 @@ export const Colors = {
     tabIconDefault: '#9BA1A6',
     tabIconSelected: tintColorDark,
   },
+  legal:{
+    dark: '#333333',
+  },
+  
 };
